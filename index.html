@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados do Brasil</title>
+    <style>
+        /* Estilos para deixar a página bonita */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 30px;
+        }
+        h2 {
+            color: #003366;
+            text-align: center;
+        }
+        .lista-estados {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            
+            /* Divide a lista em 3 colunas para ficar mais fácil de ler */
+            column-count: 3;
+            list-style-type: none; /* Remove as bolinhas padrão */
+        }
+        .lista-estados li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .lista-estados li::before {
+            content: "📍 "; /* Adiciona o emoji de mapa antes de cada estado */
+        }
+    </style>
+</head>
+<body>
 
+    <h2>Todos os Estados da Federação</h2>
+
+    <ul class="lista-estados">
+        <li>Acre</li>
+        <li>Alagoas</li>
+        <li>Amapá</li>
+        <li>Amazonas</li>
+        <li>Bahia</li>
+        <li>Ceará</li>
+        <li>Distrito Federal</li>
+        <li>Espírito Santo</li>
+        <li>Goiás</li>
+        <li>Maranhão</li>
+        <li>Mato Grosso</li>
+        <li>Mato Grosso do Sul</li>
+        <li>Minas Gerais</li>
+        <li>Pará</li>
+        <li>Paraíba</li>
+        <li>Paraná</li>
+        <li>Pernambuco</li>
+        <li>Piauí</li>
+        <li>Rio de Janeiro</li>
+        <li>Rio Grande do Norte</li>
+        <li>Rio Grande do Sul</li>
+        <li>Rondônia</li>
+        <li>Roraima</li>
+        <li>Santa Catarina</li>
+        <li>São Paulo</li>
+        <li>Sergipe</li>
+        <li>Tocantins</li>
+    </ul>
+
+</body>
+</html>
